@@ -404,6 +404,9 @@
     <Content Include="Templates\tasteit-master\scss\style.scss" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\PartialHead.cshtml" />
+    <Content Include="Views\Default\PartialScript.cshtml" />
+    <Content Include="Views\Default\PartialNavbarInfo.cshtml" />
+    <Content Include="Views\Default\PartialNavbar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
