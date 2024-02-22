@@ -411,6 +411,7 @@
     <Content Include="Views\Default\PartialAbout.cshtml" />
     <Content Include="Views\Default\PartialMenu.cshtml" />
     <Content Include="Views\Default\PartialTestimonial.cshtml" />
+    <Content Include="Views\Default\PartialChef.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
