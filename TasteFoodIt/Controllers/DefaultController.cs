@@ -52,5 +52,9 @@ namespace TasteFoodIt.Controllers
             var values = context.Products.ToList();
             return PartialView(values);
         }
+        public PartialViewResult PartialTestimonial()
+        {
+            return PartialView();
+        }
     }
 }
