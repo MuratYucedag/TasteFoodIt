@@ -29,5 +29,26 @@ namespace TasteFoodIt.Controllers
             context.SaveChanges();
             return RedirectToAction("CategoryList");
         }
+        public ActionResult DeleteCategory(int id)
+        {
+            var values = context.Categories.Find(id);
+            context.Categories.Remove(values);
+            context.SaveChanges();
+            return RedirectToAction("CategoryList");
+        }
+        [HttpGet]
+        public ActionResult UpdateCategory(int id)
+        {
+            var value = context.Categories.Find(id);
+            return View(value);
+        }
+        [HttpPost]
+        public ActionResult UpdateCategory(Category category)
+        {
+            var value = context.Categories.Find(category.CategoryId);
+            value.CategoryName = category.CategoryName;
+            context.SaveChanges();
+            return RedirectToAction("CategoryList");
+        }
     }
 }
