@@ -1,6 +1,4 @@
-﻿Ana Sayfa Partillara Ayrılacak
-Veriler Dinamik Hale Getirilecek
-Rezervasyon Yapılacak
+﻿Rezervasyon Yapılacak
 Admin Paneli Kurulacak
 Layout Yapısı Kullanılacak
 Session - Admin
