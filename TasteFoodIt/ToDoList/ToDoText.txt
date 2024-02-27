@@ -1,8 +1,5 @@
 ﻿Rezervasyon Yapılacak
-Admin Paneli Kurulacak
-Layout Yapısı Kullanılacak
 Session - Admin
-401-404 Sayfaları Yer Alacak
 Validasyon
 Viewbag
 Code Firstte Ekstra Tablo Ekleme
