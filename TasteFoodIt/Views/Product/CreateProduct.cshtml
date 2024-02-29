@@ -34,6 +34,9 @@
                             <label>Ürün Açıklaması</label>
                             @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
                             <br />
+                            <label>Ürün Görsel</label>
+                            @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+                            <br />
                             <label>Ürün Kategorisi</label>
                             @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
                             <br />

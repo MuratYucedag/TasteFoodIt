@@ -60,5 +60,17 @@ namespace TasteFoodIt.Controllers
 
             return View(value);
         }
+        public ActionResult UpdateProduct(Product p)
+        {
+            var value = context.Products.Find(p.ProductId);
+            value.CategoryId = p.CategoryId;
+            value.ProductName = p.ProductName;
+            value.ImageUrl = p.ImageUrl;
+            value.IsActive = true;
+            value.Price = p.Price;
+            value.Description = p.Description;
+            context.SaveChanges();
+            return RedirectToAction("ProductList");
+        }
     }
 }

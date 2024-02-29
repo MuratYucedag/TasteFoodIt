@@ -25,12 +25,15 @@
                 <div class="card-body">
                     <form method="post">
                         <div class="form-group">
-                            @Html.HiddenFor(x=>x.ProductId)
+                            @Html.HiddenFor(x => x.ProductId)
                             <label>Ürün Adı</label>
                             @Html.TextBoxFor(x => x.ProductName, new { @class = "form-control" })
                             <br />
                             <label>Ürün Fiyatı</label>
                             @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+                            <br />
+                            <label>Ürün Görsel</label>
+                            @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
                             <br />
                             <label>Ürün Açıklaması</label>
                             @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
