@@ -134,6 +134,7 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\ErrorPageController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NotificationController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Entities\About.cs" />
     <Compile Include="Entities\Address.cs" />
@@ -4794,6 +4795,7 @@
     <Content Include="Views\Product\CreateProduct.cshtml" />
     <Content Include="Views\Product\UpdateProduct.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Notification\NotificationList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
