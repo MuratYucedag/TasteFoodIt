@@ -141,6 +141,7 @@
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Chef.cs" />
     <Compile Include="Entities\Contact.cs" />
+    <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\OpenDayHour.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Reservation.cs" />
@@ -155,6 +156,14 @@
     <Compile Include="Migrations\202402291727491_mig2.cs" />
     <Compile Include="Migrations\202402291727491_mig2.designer.cs">
       <DependentUpon>202402291727491_mig2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403051711280_mig3.cs" />
+    <Compile Include="Migrations\202403051711280_mig3.designer.cs">
+      <DependentUpon>202403051711280_mig3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403051740123_mig4.cs" />
+    <Compile Include="Migrations\202403051740123_mig4.designer.cs">
+      <DependentUpon>202403051740123_mig4.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -4812,6 +4821,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402291727491_mig2.resx">
       <DependentUpon>202402291727491_mig2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403051711280_mig3.resx">
+      <DependentUpon>202403051711280_mig3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403051740123_mig4.resx">
+      <DependentUpon>202403051740123_mig4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
