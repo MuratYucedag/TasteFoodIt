@@ -1,7 +1,2 @@
 ﻿Rezervasyon Yapılacak
-Session - Admin
-Validasyon
-Viewbag
-Code Firstte Ekstra Tablo Ekleme
 Code Firstte Tablo Silme
-Dashboard Mini

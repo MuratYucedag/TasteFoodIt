@@ -11,6 +11,8 @@ namespace TasteFoodIt.Controllers
     public class ProductController : Controller
     {
         TasteContext context = new TasteContext();
+
+        [Authorize]
         public ActionResult ProductList()
         {
             var values = context.Products.ToList();

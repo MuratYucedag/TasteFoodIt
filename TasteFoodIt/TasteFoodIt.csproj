@@ -134,13 +134,14 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\ErrorPageController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\NotificationController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Entities\About.cs" />
     <Compile Include="Entities\Address.cs" />
     <Compile Include="Entities\Admin.cs" />
     <Compile Include="Entities\Category.cs" />
-    <Compile Include="Entities\Chef.cs" />
     <Compile Include="Entities\Contact.cs" />
     <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\OpenDayHour.cs" />
@@ -165,6 +166,10 @@
     <Compile Include="Migrations\202403051740123_mig4.cs" />
     <Compile Include="Migrations\202403051740123_mig4.designer.cs">
       <DependentUpon>202403051740123_mig4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403121809516_mig5.cs" />
+    <Compile Include="Migrations\202403121809516_mig5.designer.cs">
+      <DependentUpon>202403121809516_mig5.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -4796,6 +4801,8 @@
     <Content Include="Views\Product\UpdateProduct.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Notification\NotificationList.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Profile\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -4829,6 +4836,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202403051740123_mig4.resx">
       <DependentUpon>202403051740123_mig4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403121809516_mig5.resx">
+      <DependentUpon>202403121809516_mig5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
